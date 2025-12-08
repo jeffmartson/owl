@@ -23,3 +23,4 @@ spacy>=3.5.3
 
 # Install spaCy model
 # Run after pip install: python -m spacy download en_core_web_sm
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
